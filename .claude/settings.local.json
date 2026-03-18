@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 scripts/build_index.py)",
+      "Bash(python3 -m bot.main)",
+      "Bash(brew install:*)",
+      "Bash(/usr/local/bin/brew install:*)",
+      "Bash(/opt/homebrew/bin/brew install:*)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(command -v brew)",
+      "Read(//opt/**)",
+      "Read(//usr/local/**)",
+      "Bash(ls /opt/homebrew/bin/brew*)",
+      "Bash(python3 -c \"import paramiko\")",
+      "Bash(python3:*)",
+      "Bash(pkill -f \"bot.main\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(find ~ -maxdepth 3 -name *.py -path *консультант*)",
+      "Bash(find ~ -maxdepth 3 -type d -name *консультант*)",
+      "Bash(\"/Users/maks/ИИ-консультант на:*)"
+    ]
+  }
+}
